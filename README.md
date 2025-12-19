@@ -3,6 +3,7 @@
 Repository ini berisi implementasi model Long Short-Term Memory (LSTM) untuk melakukan prediksi harga saham Bank Central Asia (BBCA) serta aplikasi Streamlit untuk visualisasi dan prediksi interaktif. Proyek ini bertujuan untuk menerapkan deep learning pada data time series saham dan menampilkan hasilnya dalam bentuk aplikasi web sederhana.
 
 **Struktur Repository**
+
 ├── app (3).py              # Aplikasi Streamlit untuk prediksi harga saham
 
 ├── bbca.csv                # Dataset historis saham BBCA
@@ -15,7 +16,7 @@ Repository ini berisi implementasi model Long Short-Term Memory (LSTM) untuk mel
 
 └── README.md               # Dokumentasi proyek
 
-**Deskripsi singkat proyek **
+**Deskripsi singkat proyek**
 Model LSTM digunakan karena kemampuannya dalam menangkap pola jangka panjang pada data runtun waktu (time series). Data harga saham BBCA diproses dan dinormalisasi menggunakan scaler, kemudian digunakan untuk melatih model LSTM. Model yang telah dilatih selanjutnya diintegrasikan ke dalam aplikasi Streamlit agar pengguna dapat melihat hasil prediksi secara langsung.
 
 Teknologi yang Digunakan
